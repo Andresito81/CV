@@ -1,0 +1,162 @@
+.yo {
+    border-radius: 5px;
+    width: 80%;
+    text-align: center;
+    /*box-shadow: 0 0 10px #777777;*/
+    margin-top: 20px;
+}
+
+body {
+    background-color: #f0efef;
+    margin: 0;
+}
+
+h1,
+h2 {
+    color: #888888;
+    font-weight: normal;
+}
+
+
+/* comienzo del grid*/
+
+.page {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    overflow: auto;
+    grid-gap: 20px;
+    margin: 10px 30px 55px 55px;
+}
+
+i {
+    color: #1f4068;
+    font-size: 2rem;
+}
+
+#about {
+    font-size: 3rem;
+}
+
+#ex {
+    font-size: 3rem;
+}
+
+#edu {
+    font-size: 3rem;
+}
+
+.foto {
+    width: 300px;
+    margin: 0 auto 0 auto;
+    text-align: center;
+}
+
+.caja {
+    text-align: right;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 1px;
+    color: white;
+    width: 97%;
+    background-color: #ddd;
+    margin: 0 auto 0 auto;
+    border-radius: 3px;
+}
+
+.html {
+    width: 90%;
+    background-color: #1089ff;
+    margin: none;
+    border-radius: 3px;
+}
+
+.CSS {
+    width: 75%;
+    background-color: #1089ff;
+    margin: none;
+    border-radius: 3px;
+}
+
+.Js {
+    width: 75%;
+    background-color: #1089ff;
+    margin: none;
+    border-radius: 3px;
+}
+
+.java {
+    width: 75%;
+    background-color: #1089ff;
+    margin: none;
+    border-radius: 3px;
+}
+
+.bio {
+    grid-row: 1/5;
+    grid-column: 1/2;
+    box-shadow: 0 0 10px #777777;
+    -moz-box-shadow: 0 0 10px;
+    background-color: #f9fcfb;
+    border-radius: 0;
+    align-items: center;
+}
+
+.profile {
+    grid-column: 2/6;
+    box-shadow: 0 0 10px #777777;
+    background-color: #f9fcfb;
+    text-align: left;
+}
+
+.data1 {
+    padding: 10px;
+}
+
+.experiencia {
+    grid-column: 2/6;
+    -moz-box-shadow: 5px 5px 5px #777777;
+    box-shadow: 0 0 10px #777777;
+    background-color: #f9fcfb;
+    line-height: 1px;
+}
+
+span {
+    border: 1px black;
+    border-radius: 4px;
+    background-color: #1f4068;
+    background-size: 2px;
+    padding: 8px 8px 8px 8px;
+    color: white;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*
+    .text {
+        background-color: #7fcd91;
+        border: 1px black;
+        border-radius: 5px;
+        border-style: solid;
+        text-shadow: none;
+    }
+    */
+
+.edu {
+    grid-column: 2/6;
+    -moz-box-shadow: 5px 5px 5px #777777;
+    box-shadow: 0 0 10px #777777;
+    background-color: #f9fcfb;
+    line-height: 1px;
+}
+
+.pie {
+    text-align: center;
+    background-color: #1f4068;
+    width: 100%;
+    height: 60px;
+    font-size: 1.5rem;
+    color: white;
+    margin-top: none;
+    padding: 70px 0;
+}
