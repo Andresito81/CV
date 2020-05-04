@@ -115,6 +115,10 @@ i {
     text-align: center;
 }
 
+#nombre{
+    text-align: center;
+}
+
 .experiencia {
     grid-column: 2/6;
     -moz-box-shadow: 5px 5px 5px #777777;
