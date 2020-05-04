@@ -111,6 +111,9 @@ i {
 .data1 {
     padding: 10px;
 }
+.data2{
+    text-align: center;
+}
 
 .experiencia {
     grid-column: 2/6;
